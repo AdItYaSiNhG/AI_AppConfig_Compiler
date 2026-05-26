@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
-    "build:ui": "cd ui && npm run build",
+    "build:ui": "cd ui && npm install && npm run build",
     "eval": "node evaluation/run_evals.js",
     "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests"
   },
