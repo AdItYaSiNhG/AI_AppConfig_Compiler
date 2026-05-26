@@ -5,6 +5,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { runPipeline } from '../core/pipeline.js';
 import { getAllMetrics } from '../core/stage7_evaluate.js';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+// ESM-compatible __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 dotenv.config();
 
