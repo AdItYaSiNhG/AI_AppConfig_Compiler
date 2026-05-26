@@ -1,0 +1,21 @@
+{
+  "name": "app-config-compiler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Natural Language → App Config Compiler (base44-style)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "build:ui": "cd ui && npm run build",
+    "eval": "node evaluation/run_evals.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "groq-sdk": "^0.8.0",
+    "zod": "^3.23.8"
+  }
+}

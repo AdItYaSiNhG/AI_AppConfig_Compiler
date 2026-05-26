@@ -1,0 +1,52 @@
+[
+  {
+    "id": "edge_01",
+    "prompt": "Build me an app.",
+    "category": "vague"
+  },
+  {
+    "id": "edge_02",
+    "prompt": "All users can see everything, but also make it role-based with restricted admin-only pages.",
+    "category": "conflicting"
+  },
+  {
+    "id": "edge_03",
+    "prompt": "Build a dashboard with charts.",
+    "category": "incomplete"
+  },
+  {
+    "id": "edge_04",
+    "prompt": "Build Instagram + Uber + Stripe + Notion + Slack all in one app.",
+    "category": "overloaded"
+  },
+  {
+    "id": "edge_05",
+    "prompt": "Make it completely public but also require login for every page.",
+    "category": "contradictory auth"
+  },
+  {
+    "id": "edge_06",
+    "prompt": "Add premium users.",
+    "category": "ambiguous roles"
+  },
+  {
+    "id": "edge_07",
+    "prompt": "Build a beautiful landing page with animations and a contact form.",
+    "category": "no entities"
+  },
+  {
+    "id": "edge_08",
+    "prompt": "Users have one profile, but also profiles belong to many users.",
+    "category": "conflicting schema"
+  },
+  {
+    "id": "edge_09",
+    "prompt": "Add payments.",
+    "category": "underspecified payment"
+  },
+  {
+    "id": "edge_10",
+    "prompt": "Admins manage users. Users manage admins.",
+    "category": "circular dependency"
+  }
+]

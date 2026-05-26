@@ -1,0 +1,26 @@
+# Environment
+.env
+
+# Dependencies
+node_modules/
+
+# Build output
+ui/dist/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment example (keep this, it's the template)
+!.env.example
+.env

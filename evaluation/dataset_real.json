@@ -1,0 +1,42 @@
+[
+  {
+    "id": "real_01",
+    "prompt": "Build a CRM with login, contacts, dashboard, role-based access, premium plan with payments. Admins can see analytics."
+  },
+  {
+    "id": "real_02",
+    "prompt": "Create an e-commerce store with product listings, cart, checkout, Stripe payments, and order tracking."
+  },
+  {
+    "id": "real_03",
+    "prompt": "Build a project management tool like Trello with boards, cards, drag-drop, team members, and due dates."
+  },
+  {
+    "id": "real_04",
+    "prompt": "Create a job board where companies post jobs, candidates apply, and admins moderate listings."
+  },
+  {
+    "id": "real_05",
+    "prompt": "Build a SaaS analytics dashboard with user metrics, funnel charts, cohort analysis, and CSV export."
+  },
+  {
+    "id": "real_06",
+    "prompt": "Create an LMS with courses, lessons, quizzes, progress tracking, and certificate generation."
+  },
+  {
+    "id": "real_07",
+    "prompt": "Build a healthcare appointment booking system with doctor profiles, time slots, patient records, and reminders."
+  },
+  {
+    "id": "real_08",
+    "prompt": "Create a multi-tenant invoicing app with clients, invoices, recurring billing, and payment status."
+  },
+  {
+    "id": "real_09",
+    "prompt": "Build a social platform where users post, follow each other, like/comment, and get notifications."
+  },
+  {
+    "id": "real_10",
+    "prompt": "Create a real estate listing platform with property search, filters, agent profiles, and inquiry forms."
+  }
+]
