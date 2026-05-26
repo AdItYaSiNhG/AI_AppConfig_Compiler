@@ -8,7 +8,7 @@ import { getAllMetrics } from '../core/stage7_evaluate.js';
 
 // ESM-compatible __dirname
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __dirname = path.dirname(__filename);
 
 dotenv.config();
 
